@@ -21,3 +21,102 @@
     - 输入输出
 
 * [树、二叉树、森林之间的转换](https://www.cnblogs.com/zhuyf87/archive/2012/11/04/2753950.html)
+
+* 排序
+
+    <table style="text-align: center;">
+        <tr>
+            <td rowspan="2">排序方法</td>
+            <td rowspan="2">平均时间</td>
+            <td colspan="2">比较次数</td>
+            <td colspan="2">移动次数</td>
+            <td rowspan="2">稳定性</td>
+            <td rowspan="2">附加存储</td>
+        </tr>
+        <tr>
+            <td>最好</td>
+            <td>最差</td>
+            <td>最好</td>
+            <td>最差</td>
+        </tr>
+        <tr>
+            <td>直接插入</td>
+            <td>n<sup>2</sup></td>
+            <td>n</td>
+            <td>n<sup>2</sup></td>
+            <td>0</td>
+            <td>n<sup>2</sup></td>
+            <td>T</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>折半插入</td>
+            <td>n<sup>2</sup></td>
+            <td colspan="2">nlog<sub>2</sub>n</td>
+            <td>0</td>
+            <td>n<sup>2</sup></td>
+            <td>T</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>希尔排序</td>
+            <td>n<sup>1.3</sup></td>
+            <td colspan="2"></td>
+            <td>0</td>
+            <td></td>
+            <td>F</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>起泡排序</td>
+            <td>n<sup>2</sup></td>
+            <td>n</td>
+            <td>n<sup>2</sup></td>
+            <td>0</td>
+            <td>n<sup>2</sup></td>
+            <td>T</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>快速排序</td>
+            <td>nlog<sub>2</sub>n</td>
+            <td>nlog<sub>2</sub>n</td>
+            <td>n<sup>2</sup></td>
+            <td>nlog<sub>2</sub>n</td>
+            <td>n<sup>2</sup></td>
+            <td>F</td>
+            <td>nlog<sub>2</sub>n</td>
+        </tr>
+        <tr>
+            <td>简单选择</td>
+            <td>n<sup>2</sup></td>
+            <td colspan="2">n<sup>2</sup></td>
+            <td>0</td>
+            <td>n</td>
+            <td>T</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>堆排序</td>
+            <td>nlog<sub>2</sub>n</td>
+            <td colspan="2">nlog<sub>2</sub>n</td>
+            <td colspan="2">nlog<sub>2</sub>n</td>
+            <td>F</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>归并排序</td>
+            <td>nlog<sub>2</sub>n</td>
+            <td colspan="2">nlog<sub>2</sub>n</td>
+            <td colspan="2">nlog<sub>2</sub>n</td>
+            <td>T</td>
+            <td>n</td>
+        </tr>
+        <tr>
+            <td>基数排序</td>
+            <td>d(n+rd)</td>
+            <td colspan="4"></td>
+            <td>T</td>
+            <td>n+rd</td>
+        </tr>
+    </table>
