@@ -22,7 +22,7 @@
 
     |      | abstract class | interface|
     |:----:|:--------------:|:--------:|
-    | 修饰词 | 不能有final | 只有public |
+    | 修饰词 | 不能有final | 一个包中最多只有public |
     | 属性 | 没有private | public静态常量 |
     | 构造方法 | 可有可无 | 没有 |
     | 普通方法 | 可以有具体方法 | 必须是public abstract方法，JDK8出现default方法 |
@@ -253,3 +253,8 @@
         + nextDouble() 生成一个[0,1,0)之间的double
     - setSeed(long seed) 重置种子数
     - [不重复的随机数](http://paste.ubuntu.com/26208386/)
+
+* wait()
+    - 让一个线程在某些条件下暂停运行
+    - synchronized的函数或是对象中调用wait
+    - 在循环中调用wait而不是在if中
