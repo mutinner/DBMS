@@ -1,7 +1,6 @@
 ### 数据结构
 * 数据元素是数据的基本单位
 * 一个数据元素由若干个数据项组成
-* 数据对象是性质相同的数据元素的集合
 * 数据项是数据的最小单位
 * 数据对象是性质相同的数据元素的集合，数据的一个子集
 * 逻辑结构
@@ -25,7 +24,7 @@
 * 排序
 
     <table style="text-align: center;">
-        <tr>
+        <tr style="text-align: center;">
             <td rowspan="2">排序方法</td>
             <td rowspan="2">平均时间</td>
             <td colspan="2">比较次数</td>
